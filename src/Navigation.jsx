@@ -71,7 +71,7 @@ function Navigation() {
         <NavigationContainer>
             <Left>
                 {/* <LText>~ Pratibha Pradhan ~</LText> */}
-                <Link to='/home' style={{textDecoration: "none"}}>
+                <Link to='/' style={{textDecoration: "none"}}>
                     <LText 
                         style={{
                             textDecoration: "none",
@@ -83,7 +83,7 @@ function Navigation() {
             <Right>
                 <RText>
                 {/* id="rtext" onMouseOver={mouseover()} onMouseOut={mouseout()} */}
-                    <Link to='/home'
+                    <Link to='/'
                         style={{
                             textDecoration: "none", 
                             textDecorationColor: "#926122", 
