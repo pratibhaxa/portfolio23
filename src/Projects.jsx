@@ -17,9 +17,9 @@ const Project1 = styled.div`
     
 `;
 
-const Project2 = styled.div`
+// const Project2 = styled.div`
     
-`;
+// `;
 
 function Projects() {
     return(
