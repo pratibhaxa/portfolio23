@@ -104,7 +104,7 @@ function About() {
                                 }}>get in touch here!</Link>
                         </ImageText2>
                         <Resume>
-                            <Link to='https://drive.google.com/file/d/14Kgn1vJkKRX5kqT03FO1W9C36wohEGE7/view?usp=sharing' 
+                            <Link to='https://drive.google.com/file/d/1YkFnB2TjRRZ5wAY5IsEBEmIsexqqlIJ3/view?usp=sharing' 
                                 target="_blank"
                                 style={{
                                     textDecoration: "underline", 
@@ -114,7 +114,7 @@ function About() {
                                     fontFamily: "Courier New"
                                 }}>view my Resume</Link>
                             {/* view my Resume */}
-                            {/* https://drive.google.com/file/d/14Kgn1vJkKRX5kqT03FO1W9C36wohEGE7/view?usp=sharing */}
+                            {/* https://drive.google.com/file/d/1YkFnB2TjRRZ5wAY5IsEBEmIsexqqlIJ3/view?usp=sharing */}
                         </Resume>
                     </ImageText>
                 </ImageContainer>
