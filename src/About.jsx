@@ -28,7 +28,13 @@ const Image = styled.img`
 `;
 
 const ImageText = styled.div`
-    margin-top: 200px;
+    margin-top: 150px;
+`;
+
+const Resume = styled.div`
+    margin-top: 100px;
+    text-align: right;
+    margin-right: 150px;
 `;
 
 const ImageText1 = styled.div`
@@ -85,7 +91,8 @@ function About() {
                 <ImageContainer>
                     <Image src = {photo} />
                     <ImageText>
-                        <ImageText1>Pratibha Pradhan</ImageText1>
+                        
+                        <ImageText1>hi, i'm pratibha!</ImageText1>
                         <ImageText2>I am a Front-end Developer who's passionate about building digital experiences that nurture community, inclusivity, and knowledge. I am a graduate of Kalinga Institute of Industrial Technology, Bhubaneswar (Tier 1 College) and I have experience of 1.8 years at Accenture, Bengaluru. 
                             <br/><br/>Whether the internet or the outdoors, I love exploring, and I apply this open mindset to my projects. I am happiest when I am using my passions to help you pursue yours! If you're interested in working together,&nbsp;
                             <Link to='/contact' 
@@ -96,6 +103,19 @@ function About() {
                                     fontFamily: "Courier New"
                                 }}>get in touch here!</Link>
                         </ImageText2>
+                        <Resume>
+                            <Link to='https://drive.google.com/file/d/14Kgn1vJkKRX5kqT03FO1W9C36wohEGE7/view?usp=sharing' 
+                                target="_blank"
+                                style={{
+                                    textDecoration: "underline", 
+                                    textDecorationColor: "#926122", 
+                                    color: "#2C2C2C", 
+                                    fontSize: "0.7cm",
+                                    fontFamily: "Courier New"
+                                }}>view my Resume</Link>
+                            {/* view my Resume */}
+                            {/* https://drive.google.com/file/d/14Kgn1vJkKRX5kqT03FO1W9C36wohEGE7/view?usp=sharing */}
+                        </Resume>
                     </ImageText>
                 </ImageContainer>
                 <Tagline1>MY SKILLS</Tagline1>

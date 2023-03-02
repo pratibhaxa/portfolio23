@@ -9,10 +9,30 @@ const Container = styled.div`
     right: 0;
 `;
 
+const Body = styled.div`
+    
+`;
+
+const Project1 = styled.div`
+    
+`;
+
+const Project2 = styled.div`
+    
+`;
+
 function Projects() {
     return(
         <Container>
             <Navigation />
+            <Body>
+                <Project1>
+
+                </Project1>
+                <Project1>
+
+                </Project1>
+            </Body>
         </Container>
     )
 }
